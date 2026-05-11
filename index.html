@@ -85,10 +85,7 @@
 
    
 
-    <!--<div class="hero-meta">
-      <span>講演会・見学会・勉強会</span>
-      <span>学年を問わず参加歓迎</span>
-    </div>-->
+  
   </div>
 </section>
 
@@ -111,59 +108,10 @@
       </p>
     </div>
   
-   <!-- <section class="section" id="stories">-->
-  <!--
-    <div class="container">
-    <h3 class="section-subtitle">読み物</h3>
-    <p>
-      PUB-Lab の設立の思いや、アイコンに込めた意味をまとめた読み物ページです。
-    </p>
-
-    <a href="stories.html" class="story-card">
-      <strong>読み物ページへ</strong>
-      <p>「設立の思い」と「アイコンに込めた意味」をタブで読み比べられます。</p>
-    </a>
-  </div>
-</section>
--->
-  <!--<div class="container">
-    <h3 class="section-subtitle">読み物</h3>
-    --> 
-
-    <!-- おすすめの読み物（カード表示：最大2〜3件） -->
-    <!--<div class="story-cards">
-      <a href="founding.html" class="story-card">
-        <strong>設立の思い</strong>
-        <p>なぜPUB-Labを作ったのか。その背景や課題意識を綴りました。</p>
-      </a>
-      <a href="icon.html" class="story-card">
-        <strong>アイコンに込めた意味</strong>
-        <p>ロゴに込めた“法と実践の交差点”のコンセプトを解説しています。</p>
-      </a>-->
-      <!-- 将来、ここに「特に見てほしい3つ目」を追加してOK -->
-    <!--</div>-->
-
-    <!-- それ以外の読み物をコンパクトに並べるエリア -->
-    <!--<ul class="story-list">-->
-      <!-- 今はダブりを避けて空にしておいて、増えてきたら使うイメージ -->
-      <!-- 例：
-      <li><a href="/activity-2025-spring.html">2025年度春学期の活動レポート</a></li>
-      <li><a href="/visit-xx.html">○○機関見学レポート</a></li>
-      -->
-    <!--</ul>-->
-
-    <!-- 読み物が増えたら、一覧ページやnoteへの導線を追加しても良い -->
-    <!--
-    <p class="note">
-      <a href="/stories.html">他の読み物をもっと見る</a>
-      または
-      <a href="https://note.com/publab_niigata" target="_blank" rel="noopener">PUB-Labのnote</a>
-    </p>
-    -->
+  
   </div>
 
 
-  <!--</section>->
 
   <!-- 活動内容 -->
   <section id="activities" class="section section-alt">
@@ -220,13 +168,7 @@
           <p>興味を持っていただけましたら、申し込みフォームまたはメールにて見学希望の旨をご連絡ください。</p>
         
 
-          <!--
-          <ol>
-            <li>SNS（Instagram / X / note）から活動の雰囲気をチェックします。</li>
-            <li>興味があれば、申し込み用フォーム または メールから「見学希望」の旨をご連絡ください。</li>
-            <li>見学企画に参加し、継続参加を希望する場合はその場でご相談ください。</li>
-          </ol>
-        -->
+          
         </div>
       </details>
 
@@ -270,34 +212,7 @@
         最新の活動報告やイベント情報は、SNSで発信しています。
       </p>
 
-      <!-- 
-      <ul class="link-list">
-       
-        <li>
-          <strong>Instagram：</strong>
-          <a href="https://www.instagram.com/pub_lab.niigata" target="_blank" rel="noreferrer">
-            @pub_lab.niigata
-          </a>
-        </li>
-        <li>
-          <strong>X（旧Twitter）：</strong>
-          <a href="https://x.com/（ここを実際のIDに）" target="_blank" rel="noreferrer">
-            @（XのID）
-          </a>
-        </li>
-        <li>
-          <strong>note：</strong>
-          <a href="https://note.com/publab_niigata" target="_blank" rel="noreferrer">
-            PUB-Lab公式note
-          </a>
-        </li>
-        
-        <ul class="sns-icons">
-            <li><a href="https://www.instagram.com/xxxxxxxx" class="icon ig">Instagram</a></li>
-            <li><a href="https://x.com/xxxxxxxx" class="icon x">X</a></li>
-            <li><a href="https://note.com/xxxxxxxx" class="icon note">note</a></li>
-        </ul>
-    -->
+     
         <div class="sns-strip">
   <div class="sns-strip-label">Official SNS</div>
   <div class="sns-strip-links">
@@ -546,38 +461,7 @@
   });
 </script>
 
-  <!-- ↑ここにスクロールアニメーションのスクリプトを追加する -->
-  <!--
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      // すでにアニメ済みなら何もしない
-      if (localStorage.getItem("pub-lab-hero-animated") === "1") {
-        document.querySelectorAll(".reveal-from-left").forEach(el => {
-          el.classList.add("is-visible");
-        });
-        return;
-      }
-
-      const targets = document.querySelectorAll(".reveal-from-left");
-      if (!("IntersectionObserver" in window) || targets.length === 0) return;
-
-      const observer = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-            obs.unobserve(entry.target);
-          }
-        });
-
-        if ([...entries].some(e => e.isIntersecting)) {
-          localStorage.setItem("pub-lab-hero-animated", "1");
-        }
-      }, { threshold: 0.2 });
-
-      targets.forEach(el => observer.observe(el));
-    });
-  </script>
--->
+ 
 
 
 </body>
